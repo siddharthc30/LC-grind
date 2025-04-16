@@ -5,9 +5,8 @@ class Solution {
             if(check.contains(nums[i])){
                 return true;
             }
-            if(!check.contains(nums[i])){
-                check.add(nums[i]);
-            }
+            
+            check.add(nums[i]);
             
         }
         return false;
