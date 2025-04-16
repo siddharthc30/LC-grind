@@ -5,8 +5,11 @@ class Solution {
             if(check.contains(nums[i])){
                 return true;
             }
+            else{
+                check.add(nums[i]);
+            }
             
-            check.add(nums[i]);
+            
             
         }
         return false;
